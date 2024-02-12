@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+data_pgadmin/
+data/
+ny_taxi_postgres_data/
+*.csv
