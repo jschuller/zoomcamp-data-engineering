@@ -2,7 +2,7 @@
 data_pgadmin/
 data/
 ny_taxi_postgres_data/
-*.csv
+#*.csv
 mage_data/
 *.json
 
