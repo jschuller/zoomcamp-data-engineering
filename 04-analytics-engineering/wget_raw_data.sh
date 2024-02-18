@@ -14,8 +14,8 @@ while IFS= read -r url; do
     wget "$url" -O "$filename"
     
     # Use gsutil to copy the downloaded file to Google Cloud Storage
-    gsutil cp "$filename" gs://week-4-hw-bucket-docksgit/tripdata/
+    gsutil cp "$filename" gs://week-4-hw-bucket-jschuller/tripdata/
     
     # Remove the downloaded file after uploading
     rm "$filename"
-done < raw_data_urls.txt
+done < wget_raw_data_urls.txt
